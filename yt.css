@@ -1,11 +1,12 @@
 /* full video ad */
-.ad-showing .html5-video-container, .ad-showing .ytp-chrome-top {
+.ad-showing .html5-video-container, .ad-showing .ytp-chrome-top, .ytp-ad-player-overlay-flyout-cta, .ytp-ad-player-overlay-instream-info {
     display: none;
 }
 
 /* popup ad */
-ytd-popup-container paper-dialog, .ytp-ad-player-overlay-flyout-cta, .ytp-ad-player-overlay-instream-info {
-    display: none;
+ytd-popup-container paper-dialog {
+    /* todo */
+    xdisplay: none;
 }
 
 /* small ad */
@@ -20,3 +21,4 @@ ytd-popup-container paper-dialog, .ytp-ad-player-overlay-flyout-cta, .ytp-ad-pla
     padding: 80px 120px;
     position: relative;
 }
+
