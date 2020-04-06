@@ -1,0 +1,22 @@
+/* full video ad */
+.ad-showing .html5-video-container, .ad-showing .ytp-chrome-top {
+    display: none;
+}
+
+/* popup ad */
+ytd-popup-container paper-dialog, .ytp-ad-player-overlay-flyout-cta, .ytp-ad-player-overlay-instream-info {
+    display: none;
+}
+
+/* small ad */
+.video-ads.ytp-ad-module .ytp-ad-overlay-slot {
+    display: none;
+}
+
+/* make skip button larger */
+.video-ads.ytp-ad-module .ytp-ad-skip-button {
+    border: 10px solid white;
+    font-size: 50px;
+    padding: 80px 120px;
+    position: relative;
+}
